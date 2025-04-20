@@ -61,6 +61,7 @@ export default function Profile({ params }: Props) {
       </div>
     );
   }
+
   return (
     <div>
       <div className="profile">

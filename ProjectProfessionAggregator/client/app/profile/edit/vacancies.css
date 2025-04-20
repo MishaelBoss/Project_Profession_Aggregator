@@ -1,0 +1,67 @@
+.form-create-vacancies{
+    background: rgba(255, 255, 255, 0.4);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 5%;
+    text-align: center;
+    border: black solid 1px;
+    h1{
+        font-size: 1.3rem;
+    }
+    .div-content{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.2em;
+        textarea{
+            resize: none;
+            padding: 10px;
+            max-width: 100%;
+            line-height: 1.5;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-shadow: 1px 1px 1px #999;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+        input{
+            padding: 10px;
+            max-width: 100%;
+            line-height: 1.5;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-shadow: 1px 1px 1px #999;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+        .div-content_content{
+            display: flex;
+            padding: 10px;
+            max-width: 100%;
+            line-height: 1.5;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-shadow: 1px 1px 1px #999;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+    }
+}
+.str-left-right{
+    display: flex;
+}
+
+.btn-accept_02{
+
+}
+
+.hr{
+    padding: 0.5em;
+}
+
+.company-details{
+    font-weight: bold;
+}

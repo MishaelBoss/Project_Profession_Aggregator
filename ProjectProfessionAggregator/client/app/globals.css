@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  /* --background: linear-gradient(60deg, #AFDFEB, #40B3D0, #16537F); */
+  --background: #9d9c9a;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background-image: url("/Bg.jpg");
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.NotFound{
+  margin-left: auto;
+  margin-right: auto;
+  background: red;
+  width: 80%;
+  height: 80%;
+  padding: 2em;
+  color: white;
+  font-size: x-large;
+  border-radius: 20px;
+  margin-top: 10%;
+  opacity: 0;
+  animation: ani 2.5s forwards;
+}
+
+.Acept{
+  margin-left: auto;
+  margin-right: auto;
+  background: green;
+  width: 80%;
+  height: 80%;
+  padding: 2em;
+  color: black;
+  font-size: x-large;
+  border-radius: 20px;
+  margin-top: 10%;
+  opacity: 0;
+  animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}

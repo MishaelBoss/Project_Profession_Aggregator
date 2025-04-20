@@ -1,0 +1,126 @@
+.div-view-company{
+    background: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    border-radius: 20px;
+    border: gray solid 1.5px;
+    overflow: hidden;
+    padding: 1.2em;
+    .div-view-company-title > h1{
+        text-align: center;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .div-view-content-fixed{
+        .div-view-company-content{
+            word-wrap: break-word;
+            padding: 1rem;
+            .div-view-company-content-header{
+                font-weight: bold;
+                span{
+                    background-color: #fdf0c7;
+                    font-size: 2rem;
+                    margin-bottom: 1rem;
+                }
+                .div-view-company-content-header > h1{
+                    margin-bottom: 1.2rem;
+                }
+                .div-view-company-content-header > p{
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .div-view-company-content-footer{
+        margin-top: 1em;
+    }
+
+    a:hover{
+        cursor: pointer;
+    }
+}
+.div-view-content-fixed{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .div-view-content-right{
+        display: grid;
+        width: 4em;
+        height: 4em;
+        justify-content: end;
+        align-items: center;
+        justify-items: end;
+    }
+    .div-view-content-right > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        border: black solid 1px;
+    }
+}
+.button-accept-vacancies{
+    color: white;
+    background: #0070ff;
+    font-size: 1.5em;
+    padding: 0.3em 2rem 0.3em 2rem;
+    border-radius: 10px;
+}
+
+.button-accept-vacancies:hover{
+    background: #468ffd;
+}
+
+.hr{
+    padding: 0.2em;
+}
+
+.button-accept-vacancies-view-user{
+    color: white;
+    background: green;
+    font-size: 1.5em;
+    padding: 0.3em 2rem 0.3em 2rem;
+    border-radius: 10px;
+    margin-left: 50px;
+
+}
+.button-accept-vacancies-view-user:hover{
+    background: rgb(2, 156, 2);
+}
+
+.filtres{
+    background: antiquewhite;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    input{
+        padding: 10px;
+        max-width: 100%;
+        line-height: 1.5;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 1px #999;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+    }
+    select{
+        padding: 10px;
+        max-width: 100%;
+        line-height: 1.5;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 1px #999;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+    }
+    .hr{
+        
+    }
+}

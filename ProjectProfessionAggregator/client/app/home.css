@@ -1,0 +1,10 @@
+.div-home{
+    .div-home-left-content{
+        img{
+            width: 50em;
+            bottom: 0;
+            position: absolute;
+            left: -5em;
+        }
+    }
+}

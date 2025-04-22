@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a project on [Next.js](https://nextjs.org) and [Django] (https://www.djangoproject.com/).
 
 ## Getting Started Server Django
 

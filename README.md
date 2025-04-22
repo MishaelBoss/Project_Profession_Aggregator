@@ -1,4 +1,4 @@
-This is a project on [Next.js](https://nextjs.org) and [Django] (https://www.djangoproject.com/).
+This is a project on [Next.js](https://nextjs.org) and [Django](https://www.djangoproject.com/).
 
 ## Getting Started Server Django
 
